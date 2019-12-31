@@ -6,8 +6,10 @@ include_once '../includes/overall/header.php';
 <h1>Login</h1>
 <br/>
 <?php
-    if (isset($_POST['login'])) {
-        User::instance()->login_validate(escape($_POST['username']), escape($_POST['password']));
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    	if (isset($_POST['login'])) {
+        	User::instance()->login_validate(escape($_POST['username']), escape($_POST['password']));
+    	}
     }
 ?>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
