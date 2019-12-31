@@ -39,7 +39,7 @@ class User {
                     return false;
                 } elseif ($verify === true) {
                     $_SESSION['id'] = $result->id;
-                    Redirect::to('staff.php');
+                    Redirect::to(SITE_ROOT.'/admin/staff.php');
                     return true;
                 }
             }
