@@ -1,6 +1,6 @@
 POST
 
-/* This is my second personal project. It is a CMS system that a company can use to update its site without the user not knowing how to write code. I was kinda new to PHP OOP when I developed it so I created methods for most functionality. Others, I wrote them on the the whole code on the same page it was intended for. But nevertheless, it doesn't change the fact that it still works */
+/* This is my second personal project. It is a CMS system that a company can use to update its site without the user knowing how to write code. I was kinda new to PHP OOP when I developed it so I created methods for most functionality in the different classes. Others, I wrote them on the the whole code on the same page it was intended for. But nevertheless, it doesn't change the fact that it still works */
 
 1. import the 'post.sql' to get you started. Database name used here is 'post' but you are free to change it in 'credentials/secure.php'. You could put in your personal database credentials here as well
 
